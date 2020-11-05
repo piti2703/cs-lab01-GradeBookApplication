@@ -59,14 +59,14 @@ __Note:__ This isn't the only way to accomplish implementation, however; this is
 
 - [ ] Add support for Ranked Grading
 	- [ ] Creating The `GradeBookType` Enum.
-		- [ ] Create a new Enum `GradeBookType`.
+		- [x] Create a new Enum `GradeBookType`.
 			- This should be located in the `Enums` directory.
 			- This should use the `GradeBooks.Enums` namespace.
 			- This should use the `public` access modifier.
 			- This should contain the values `Standard`, `Ranked`, `ESNU`, `OneToFour`, and `SixPoint`.
 
 	- [ ] Add `Type` property
-		- [ ] Add a new property `Type` to `BaseGradeBook`
+		- [x ] Add a new property `Type` to `BaseGradeBook`
 			- This should use the name `Type`.
 			- This should be of type `GradeBookType`.
 			- This should use the `public` access modifier.
@@ -158,7 +158,8 @@ __Note:__ This isn't the only way to accomplish implementation, however; this is
 		- [ ] Add 1 point to GPA when student is `Honors` or `DualEnrolled`
 
 	- [ ] Update `HelpCommand`
-		- [ ] Change where the `HelpCommand` outlines the "create" command to say "Create 'Name' 'Type' 'Weighted' - Creates a new gradebook where 'Name' is the name of the gradebook, 'Type' is what type of grading it should use, and 'Weighted' is whether or not grades should be weighted (true or false)."
+		- [ ] Change where the `HelpCommand` outlines the "create" command to say "Create 'Name' 'Type' 'Weighted' - Creates a new gradebook where 'Name' is the name of the gradebook, 
+		'Type' is what type of grading it should use, and 'Weighted' is whether or not grades should be weighted (true or false)."
 
 ## What Now?
 
